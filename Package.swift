@@ -15,9 +15,9 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "InputGuardSDK",   // 2.4.0
-            url: "https://api.sentinelden.com/spm/inputguard_sdk/2.4.0/InputGuardSDK.xcframework.zip",
-            checksum: "63e4cc633a80a42215b9d36315f8b72f9b3c5fd93aec1472b3f88d77954202d0"
+            name: "InputGuardSDK",   // 3.0.0
+            url: "https://api.sentinelden.com/spm/inputguard_sdk/3.0.0/InputGuardSDK.xcframework.zip",
+            checksum: "5257c151a6ad11fc5af972681b7f98d359d6fb6158e0e57ab7c5cfe5d51e29d6"
         ),
     ]
 )
