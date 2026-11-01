@@ -9,15 +9,15 @@ import PackageDescription
 
 let package = Package(
     name: "InputGuardSDK",
-    platforms: [.iOS(.v17)],
+    platforms: [.iOS(.v18)],
     products: [
         .library(name: "InputGuardSDK", targets: ["InputGuardSDK"]),
     ],
     targets: [
         .binaryTarget(
-            name: "InputGuardSDK",   // 3.0.0
-            url: "https://api.sentinelden.com/spm/inputguard_sdk/3.0.0/InputGuardSDK.xcframework.zip",
-            checksum: "5257c151a6ad11fc5af972681b7f98d359d6fb6158e0e57ab7c5cfe5d51e29d6"
+            name: "InputGuardSDK",   // 4.0.0
+            url: "https://api.sentinelden.com/spm/inputguard_sdk/4.0.0/InputGuardSDK.xcframework.zip",
+            checksum: "1538661297603490ac16a13ec7386e93fef7f227fe13d584832a7a1f3ca2cd75"
         ),
     ]
 )
